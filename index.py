@@ -18,13 +18,13 @@ def check_win(player, computer):
   # use f-strings use to connect variable with strings
   if player == computer:
     return "its a tie!"
-    # use if statment to check if player and computer choice the same.
+    # use if statment to check if player and computer choose the same.
   elif player == "rock":
    if computer == "scissors":
      return "rock samashes scissors, you win!"
    else:
      return "paper covers rock, you lose."
-    # use elif and nestec if here.
+    # use elif and nestic if here.
 
   elif player == "paper":
    if computer == "rock":
