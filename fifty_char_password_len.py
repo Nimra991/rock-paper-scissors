@@ -13,4 +13,4 @@ random_password = generate_random_password(minimum_length - len("Nimra"))
 # "Nimra" is always a part of the password
 password = random_password + "Nimra"
 
-print(password)
+print(password) 
